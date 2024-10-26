@@ -10,7 +10,7 @@ while handling errors gracefully.
 ## Technologies Used
 
 - **FastAPI**:
-- **SQLAlchemy**:
+- **SQLite/SQLAlchemy**:
 - **Uvicorn**:
 - **pytest**:
 
