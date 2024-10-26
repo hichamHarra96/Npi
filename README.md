@@ -65,6 +65,23 @@ Make sure you have Docker installed and running. In the project directory, execu
     ```
 ![im1](./images/1.png)
 
+# Deployment on GCP
+you can access the application using the following URL: Service URL:
+https://rpn-calculator-362573578249.europe-west1.run.app
+
+* exemples:
+
+- **GET** `/api/calculations/`
+  ex: https://rpn-calculator-362573578249.europe-west1.run.app/api/calculations/
+- **POST** `/api/calculate/`
+  ex:https://rpn-calculator-362573578249.europe-west1.run.app/api/calculate/
+  **Request Body:**
+
+  ```json
+  {
+      "operation": "3 4 +"
+  }
+  ```
 ## Downloading the CSV File
 
 You can download the calculations CSV file from the API using the following `curl` command:
